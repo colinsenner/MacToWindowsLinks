@@ -4,3 +4,4 @@ This program is designed to convert Mac `smb://my-folder` or `//my-folder` links
 
 ## Demo
 
+https://github.com/colinsenner/MacToWindowsLinks/assets/13701799/c5a6ddb1-8df1-4971-86e2-2817de91937c
