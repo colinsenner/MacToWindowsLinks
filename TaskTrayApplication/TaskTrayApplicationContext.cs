@@ -8,7 +8,7 @@ namespace TaskTrayApplication
     public class TaskTrayApplicationContext : ApplicationContext
     {
         private Regex rgx = new Regex(pattern, RegexOptions.IgnoreCase);
-        private const string pattern = @"(smb://.*|//[a-zA-Z].*)";
+        private const string pattern = @"^(smb://.*|//[a-zA-Z].*)";
 
         private Timer cooldownTimer = new Timer(1500);
         private bool IsOnCooldown = false;
